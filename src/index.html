@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 12</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./scc/styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <input
+        type="text"
+        class="form-input"
+        name="search"
+        placeholder="Search images..."
+        required
+      />
+      <button type="submit" class="form-btn">Search</button>
+    </form>
+
+    <div class="gallery"></div>
+
+    <div class="container-btn" hidden>
+      <button type="button" class="loader-btn">
+        <span class="loader" hidden></span>
+        <span class="label">Load more</span>
+      </button>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
