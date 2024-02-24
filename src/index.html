@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 12</title>
+    <title>test-js</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -14,26 +21,259 @@
     <link rel="stylesheet" href="./scc/styles.css" />
   </head>
   <body>
-    <form class="form">
-      <input
-        type="text"
-        class="form-input"
-        name="search"
-        placeholder="Search images..."
-        required
-      />
-      <button type="submit" class="form-btn">Search</button>
-    </form>
+    <!-- <header>
+      <div class="mob-menu js-menu-container">
+        <div class="mob-menu-header">
+          <address class="mob-address">
+            <a class="mob-contacts-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </address>
 
-    <div class="gallery"></div>
+          <button type="button" class="mob-menu-btn js-close-menu">
+            <svg class="mob-menu-close" width="36" height="36">
+              <use href="./img/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
 
-    <div class="container-btn" hidden>
-      <button type="button" class="loader-btn">
-        <span class="loader" hidden></span>
-        <span class="label">Load more</span>
-      </button>
-    </div>
+        <ul class="mob-nav-menu">
+          <li class="mob-menu-text">
+            <a class="mob-menu-link header-link-menu" href="#about">About us</a>
+          </li>
+          <li class="mob-menu-text">
+            <a class="mob-menu-link header-link-menu" href="#collection"
+              >Our collection</a
+            >
+          </li>
+          <li class="mob-menu-text">
+            <a class="mob-menu-link header-link-menu" href="#order"
+              >Customer order</a
+            >
+          </li>
+          <li class="mob-menu-text">
+            <a class="mob-menu-link header-link-menu" href="#testimonials"
+              >Testimonials</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header> -->
 
-    <script type="module" src="./main.js"></script>
+    <main>
+      <div class="container">
+        <div class="suport-title">
+          <h2>Support Ukraine</h2>
+          <img src="./img/Gerb-2x.png" alt="Герб" width="20" height="32" />
+        </div>
+        <div class="slider">
+          <div class="slider-line">
+            <ol>
+              <li>
+                <a href="https://www.savethechildren.ca/" target="_blank"
+                  ><img
+                    src="./img/savethechildren-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="129"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.projecthope.org/" target="_blank">
+                  <img
+                    src="./img/hope-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="62"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://internationalmedicalcorps.org/"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/medicalcorps-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="103"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.razomforukraine.org/" target="_blank">
+                  <img
+                    href="https://www.savethechildren.ca/"
+                    target="_blank"
+                    src="./img/razom-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="82"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.actionagainsthunger.org/" target="_blank">
+                  <img
+                    src="./img/aah-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="55"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://prytulafoundation.org/" target="_blank">
+                  <img
+                    src="./img/prytula-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="115"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.msf.org/" target="_blank">
+                  <img
+                    src="./img/MSF-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="94"
+                    height="32"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.wvi.org/" target="_blank">
+                  <img
+                    src="./img/worldvision-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="85"
+                    height="30"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://u24.gov.ua/" target="_blank">
+                  <img
+                    src="./img/united24-2x.png"
+                    alt="img"
+                    class="support-image"
+                    width="109"
+                    height="10"
+                  />
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <button class="button-scroll">down</button>
+      </div>
+      <!-- <aside class="support-Ukraine">
+        <h2 class="suport-title">
+          Support Ukraine
+          <img src="./img/gerb.png" alt="Герб" width="20" height="32" />
+        </h2>
+        <div class="support-category">
+          <ol>
+            <li class="support-li">
+              <img
+                src="./img/"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+            <li class="support-li" id="page-2">
+              <img
+                src="./images"
+                alt="Герб"
+                class="support-image"
+                width="129"
+                height="32"
+              />
+            </li>
+          </ol>
+        </div>
+        <nav>
+          <button class="button-top">top</button>
+          <button class="button-bottom" data-aos="fade-down">bottom</button>
+        </nav>
+      </aside> -->
+    </main>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
