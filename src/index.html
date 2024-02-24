@@ -21,17 +21,144 @@
     <link rel="stylesheet" href="./scc/styles.css" />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-list">
+          <a class="logo" href="./index.html"
+            ><img class="header-logo" src="./img/logo.svg" alt="site logo" />
+          </a>
+          <ul class="header-menu">
+            <li class="header-menu-text">
+              <a class="header-link" href="#about">About us</a>
+            </li>
+            <li class="header-menu-text">
+              <a class="header-link" href="#collection">Our collection</a>
+            </li>
+            <li class="header-menu-text">
+              <a class="header-link" href="#order">Customer order</a>
+            </li>
+            <li class="header-menu-text">
+              <a class="header-link" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="address">
+          <ul class="header-address">
+            <li>
+              <a
+                class="contacts-link contacts-link-style"
+                href="tel:+380684439426"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="soc-icons">
+          <li class="soc-items">
+            <a
+              class="icons-ground"
+              target="_blank"
+              href="https://www.facebook.com/goITclub/ "
+            >
+              <svg class="icons-color" width="28" height="28">
+                <use
+                  class="icons"
+                  href="./img/symbol-defs.svg#icon-facebook"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-items">
+            <a
+              class="icons-ground"
+              target="_blank"
+              href="https://www.instagram.com/goitclub/"
+            >
+              <svg class="icons-color" width="28" height="28">
+                <use
+                  class="icons"
+                  href="./img/symbol-defs.svg#icon-instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-items">
+            <a
+              class="icons-ground"
+              target="_blank"
+              href="https://www.youtube.com/c/GoIT"
+            >
+              <svg class="icons-color" width="28" height="28">
+                <use
+                  class="icons"
+                  href="./img/symbol-defs.svg#icon-youtube"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <button type="button" class="menu-btn js-open-menu">
+          <svg width="44" height="30">
+            <use href="./img/symbol-defs.svg#icon-Nav"></use>
+          </svg>
+        </button>
+
+      <div class="mob-menu is-open">
+        <!-- <div class="mob-menu"> -->
+        <div class="mob-menu js-menu-container">
+          <div class="mob-menu-header">
+            <address class="mob-address">
+              <a class="mob-contacts-link" href="tel:+380684439426"
+                >+380 (68) 443-94-26</a
+              >
+            </address>
+
+            <button type="button" class="mob-menu-btn js-close-menu">
+              <svg class="mob-menu-close" width="36" height="36">
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="mob-nav-menu">
+            <li class="mob-menu-text">
+              <a class="mob-menu-link header-link-menu" href="#about"
+                >About us</a
+              >
+            </li>
+            <li class="mob-menu-text">
+              <a class="mob-menu-link header-link-menu" href="#collection"
+                >Our collection</a
+              >
+            </li>
+            <li class="mob-menu-text">
+              <a class="mob-menu-link header-link-menu" href="#order"
+                >Customer order</a
+              >
+            </li>
+            <li class="mob-menu-text">
+              <a class="mob-menu-link header-link-menu" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
     <main>
       <div class="slider-container">
         <div class="slider-suport-title">
-          <p>Support Ukraine</p>
+          <p class="slider-p">Support Ukraine</p>
           <img src="./img/Gerb-2x.png" alt="Герб" width="20" height="32" />
         </div>
         <div class="slider">
           <div class="slider-line">
-            <ol>
-              <li>
+            <ol class="slider-ol">
+              <li class="slider-li">
                 <a href="https://www.savethechildren.ca/" target="_blank"
                   ><img
                     src="./img/savethechildren-2x.png"
@@ -42,7 +169,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://www.projecthope.org/" target="_blank">
                   <img
                     src="./img/hope-2x.png"
@@ -53,7 +180,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a
                   href="https://internationalmedicalcorps.org/"
                   target="_blank"
@@ -67,11 +194,9 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://www.razomforukraine.org/" target="_blank">
                   <img
-                    href="https://www.savethechildren.ca/"
-                    target="_blank"
                     src="./img/razom-2x.png"
                     alt="img"
                     class="support-image"
@@ -80,7 +205,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://www.actionagainsthunger.org/" target="_blank">
                   <img
                     src="./img/aah-2x.png"
@@ -91,7 +216,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://prytulafoundation.org/" target="_blank">
                   <img
                     src="./img/prytula-2x.png"
@@ -102,7 +227,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://www.msf.org/" target="_blank">
                   <img
                     src="./img/MSF-2x.png"
@@ -113,7 +238,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://www.wvi.org/" target="_blank">
                   <img
                     src="./img/worldvision-2x.png"
@@ -124,7 +249,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="slider-li">
                 <a href="https://u24.gov.ua/" target="_blank">
                   <img
                     src="./img/united24-2x.png"
