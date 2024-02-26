@@ -17,3 +17,28 @@ buttonScroll.addEventListener('click', async () => {
         buttonArrow.setAttribute('href', './img/symbol-defs.svg#icon-Vector-down1-1');
         };
 });
+
+//=======================================================================================================
+
+
+
+// відкриття та закриття мобільного меню
+
+const menuOpenButton = document.querySelector('.menu-open-btn');
+const menuCloseButton = document.querySelector('.menu-close-btn');
+const mobMenu = document.querySelector('.mob-menu');
+
+// Відкриття меню при кліку на кнопку відкриття
+menuOpenButton.addEventListener('click', () => {
+  mobMenu.classList.add('is-open');
+  menuOpenButton.classList.remove('is-open')
+  menuOpenButton.classList.add('hidden');
+  menuCloseButton.classList.remove('hidden');
+});
+
+// Закриття меню при кліку на кнопку закриття
+menuCloseButton.addEventListener('click', () => {
+  mobMenu.classList.remove('is-open');
+  menuOpenButton.classList.remove('hidden');
+  menuCloseButton.classList.add('hidden');
+});
